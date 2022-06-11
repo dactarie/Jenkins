@@ -10,3 +10,4 @@ services:
       MARIADB_DATABASE: wordpress
       MARIADB_USER: wordpress
       MARIADB_PASSWORD: fDQ23n[6-BiD5S{}5r[h
+
