@@ -1,0 +1,14 @@
+version: '3'
+services:
+  db:
+    image: mariadb
+    restart: always
+    ports:
+      - '3306:3306'
+    environment:
+      MARIADB_ROOT_PASSWORD: J2rKY8u#2cP9#@m|;Hr5
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: fDQ23n[6-BiD5S{}5r[h
+
+

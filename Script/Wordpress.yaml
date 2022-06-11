@@ -1,0 +1,15 @@
+version: '3'
+services:
+  Wordpress:
+    image: wordpress:latest
+    restart: always
+    volume:
+      - wordpress_data:/var/www/html
+    ports:
+      - '8000:80'
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: fDQ23n[6-BiD5S{}5r[h
+
