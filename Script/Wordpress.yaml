@@ -3,6 +3,8 @@ services:
   Wordpress:
     image: wordpress:latest
     restart: always
+    volumes:
+      - wordpress_data:/var/www/html
     ports:
       - '8000:80'
     environment:
@@ -10,3 +12,6 @@ services:
       WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: fDQ23n[6-BiD5S{}5r[h
+
+volumes:
+  wordpress_data:
