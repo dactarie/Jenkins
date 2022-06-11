@@ -1,7 +1,7 @@
 version: '3'
 services:
   db:
-    image: mariadb
+    image: mariadb:latest
     restart: always
     ports:
       - '3306:3306'
@@ -10,5 +10,4 @@ services:
       MARIADB_DATABASE: wordpress
       MARIADB_USER: wordpress
       MARIADB_PASSWORD: fDQ23n[6-BiD5S{}5r[h
-
 
