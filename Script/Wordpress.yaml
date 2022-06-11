@@ -3,7 +3,7 @@ services:
   Wordpress:
     image: wordpress:latest
     restart: always
-    volume:
+    volumes:
       - wordpress_data:/var/www/html
     ports:
       - '8000:80'
