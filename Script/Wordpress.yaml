@@ -8,7 +8,7 @@ services:
       - "8000:80"
     restart: always
     environment:
-      WORDPRESS_DB_HOST: 127.0.0.1:3306
+      WORDPRESS_DB_HOST: 192.168.1.244:3306
       WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: fDQ23n[6-BiD5S{}5r[h
